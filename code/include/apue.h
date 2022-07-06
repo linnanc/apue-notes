@@ -47,7 +47,7 @@ typedef void    Sigfunc(int);   /* for signal handlers */
 /*
  * Prototypes for our own functions.
  */
-char    *path_alloc(int *);                             /* {Prog pathalloc} */
+char    *path_alloc(size_t *);                             /* {Prog pathalloc} */
 long     open_max(void);                                /* {Prog openmax} */
 void     clr_fl(int, int);                              /* {Prog setfl} */
 void     set_fl(int, int);                              /* {Prog setfl} */
